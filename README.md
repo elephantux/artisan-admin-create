@@ -11,3 +11,8 @@ Then add service provider to config/app.php :
 ```php
 Elephantux\AdminCreate\AdminCreateServiceProvider::class,
 ```
+## Usage
+In console:
+```bash
+php artisan admin:create admin@email.com password
+```
