@@ -16,3 +16,4 @@ In console:
 ```bash
 php artisan admin:create admin@email.com password
 ```
+...
