@@ -1,0 +1,22 @@
+{
+    "name": "elephantux/admin-create",
+    "description": "A package which provides a simple user creation with artisan command",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Slon",
+            "email": "slon@offline.lv"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.1",
+        "homepage": "http://www.mysteria.lv"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elephantux\\AdminCreate\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
