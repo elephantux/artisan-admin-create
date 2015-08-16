@@ -33,7 +33,7 @@ class AdminCreate extends Command
         $password = $this->argument('password');
         $data = [
             'email' => $email,
-            'password' => $password,
+            'password' => Hash::make($password),
             'name' => 'admin',
             'admin' => true
         ];
