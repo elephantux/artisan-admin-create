@@ -17,7 +17,5 @@
         "psr-4": {
             "Elephantux\\AdminCreate\\": "src/"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable" : true
+    }
 }
