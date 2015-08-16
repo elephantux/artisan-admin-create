@@ -5,8 +5,7 @@
     "authors": [
         {
             "name": "Slon",
-            "email": "slon@offline.lv",
-            "homepage": "http://www.mysteria.lv"
+            "email": "slon@offline.lv"
         }
     ],
     "require": {
@@ -17,5 +16,6 @@
         "psr-4": {
             "Elephantux\\AdminCreate\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
