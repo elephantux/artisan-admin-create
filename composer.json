@@ -5,13 +5,13 @@
     "authors": [
         {
             "name": "Slon",
-            "email": "slon@offline.lv"
+            "email": "slon@offline.lv",
+            "homepage": "http://www.mysteria.lv"
         }
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "~5.1",
-        "homepage": "https://github.com/elephantux/artisan-admin-create.git"
+        "illuminate/support": "~5.1"
     },
     "autoload": {
         "psr-4": {
