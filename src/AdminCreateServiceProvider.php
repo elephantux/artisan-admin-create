@@ -23,8 +23,9 @@ class AdminCreateServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->commands(
-            'admin:create'
-        );
+        $this->app->singleton('admin.create', function ($app) {
+            return $app['Elephantux\AdminCreate\Commands\AdminCreate'];
+        });
+        $this->commands('admin.create');
     }
 }
