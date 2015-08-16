@@ -2,6 +2,7 @@
 
 use App\User;
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\Hash;
 use Symfony\Component\Console\Input\InputArgument;
 
 class AdminCreate extends Command
